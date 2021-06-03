@@ -1,6 +1,6 @@
 # Photo Portfolio
 
-A simple portfolio to showcase some of my photographs. Note that the code has been removed from this repo as i did not want it open to the public.
+A simple portfolio to showcase some of my photographs. Note that the code has been removed from this repo as I did not want it open to the public, let me know if you wanted to take a look.
 
 
 ## Live Preview
