@@ -28,17 +28,25 @@ Site is live [here](https://photography.lewisdev.me ), hosted on my own server.
 
 - Lazy load photographs
 - Force focus onto Modal - prevent tabbing in the background
-- Use a CMS to serve photos/tags etc (Django?)
 -- Dynamic navbar for new categories
 - Remove unused Google Fonts
-- Clickable button on desktop to show 4xX images as larger 2xX or 1xX images
-- Refactor and unbloat CSS - consolidate media queries
-- Refactor JS(!)
+- Consolidate Media Queries where possible
 - Find fix for letter spacing causing a larger than wanted underline (Possibly fine for now but may be an issue if the menu items are pulled in automatically from a CMS)
 - Investigate different compression types/ different file loads for thumbnails/modals. Compression is now very aggressive.
 
 
 ## Completed Improvements
+
+
+### Version 2.0 - Site now on Wordpress CMS
+
+- Staging site created on my server to make updates on a live env without editing the live site code. (22/05/2021)
+- CSS and JS refactored and tidied - this can be furthered refactored. (20/05/2021)
+- Added a fade to the main image grid to give the page time to load. With lots of photos, the Masonry JS library and the AOS library, page loading was looking a bit messy without this time delayed fade in. (15/05/2021)
+- Modal fades in and out. (10/05/2021)
+- Images animiate on scroll using the AOS library. (09/05/2021)
+- Images are layed out using Masonry JS and are responsive with media queries. (02/05/2021)
+- Moved entire site to Wordpress. Images can now be uploaded directly within Wordpress admin. (03/06/2021)
 
 ### Version 1.0
 
